@@ -1,7 +1,7 @@
 {
   "type": "app",
   "name": "Kubernetes",
-  "id": "fabric8-kubernetes-app",
+  "id": "fabric8io-kubernetes-app",
 
   "css": {
     "dark":  "css/dark.css",
@@ -22,7 +22,7 @@
     "links": [
       {"name": "Kubernetes", "url": "https://kubernetes.io"},
       {"name": "Prometheus", "url": "https://prometheus.io"},
-      {"name": "GitHub", "url": "https://github.com/fabric8/kubernetes-grafana-app"}
+      {"name": "GitHub", "url": "https://github.com/fabric8io/grafana-kubernetes-app"}
     ],
     "screenshots": [
       {"name": "Kubernetes Overview Dashboard", "path": "img/screenshot-overview.png"},

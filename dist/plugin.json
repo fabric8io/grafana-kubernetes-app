@@ -1,0 +1,42 @@
+{
+  "type": "app",
+  "name": "Kubernetes",
+  "id": "fabric8-kubernetes-app",
+
+  "css": {
+    "dark":  "css/dark.css",
+    "light":  "css/light.css"
+  },
+
+  "info": {
+    "description": "Kubernetes app for Grafana",
+    "author": {
+      "name": "Jimmi Dyson",
+      "url": "https://github.com/jimmidyson"
+    },
+    "keywords": ["kubernetes", "prometheus"],
+    "logos": {
+      "small": "src/img/kubernetes_small.png",
+      "large": "src/img/kubernetes_large.png"
+    },
+    "links": [
+      {"name": "Kubernetes", "url": "https://kubernetes.io"},
+      {"name": "Prometheus", "url": "https://prometheus.io"},
+      {"name": "GitHub", "url": "https://github.com/fabric8/kubernetes-grafana-app"}
+    ],
+    "screenshots": [
+      {"name": "Kubernetes Overview Dashboard", "path": "img/screenshot-overview.png"},
+    ],
+    "version": "0.0.1",
+    "updated": "2016-07-20"
+  },
+
+  "includes": [
+    {"type": "dashboard", "name": "Overview | Kubernetes", "path": "dashboards/overview.json", "addToNav": true, "defaultNav": true}
+  ],
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": []
+  }
+}

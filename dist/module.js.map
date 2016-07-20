@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":[],"mappings":";;;;;;;AAAA;;QAG6B,U","file":"module.js","sourcesContent":["import {KubernetesAppConfigCtrl} from './components/config';\n\nexport {\n  KubernetesAppConfigCtrl as ConfigCtrl\n};\n"]}

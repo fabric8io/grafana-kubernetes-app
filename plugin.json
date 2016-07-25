@@ -25,14 +25,15 @@
       {"name": "GitHub", "url": "https://github.com/fabric8io/grafana-kubernetes-app"}
     ],
     "screenshots": [
-      {"name": "Kubernetes Overview Dashboard", "path": "img/screenshot-overview.png"},
+      {"name": "Kubernetes Overview Dashboard", "path": "img/screenshot-overview.png"}
     ],
     "version": "0.0.1",
     "updated": "2016-07-20"
   },
 
   "includes": [
-    {"type": "dashboard", "name": "Overview | Kubernetes", "path": "dashboards/overview.json", "addToNav": true, "defaultNav": true}
+    {"type": "dashboard", "name": "Overview | Kubernetes", "path": "dashboards/overview.json", "addToNav": true, "defaultNav": true},
+    {"type": "dashboard", "name": "Prometheus | Kubernetes", "path": "dashboards/prometheus.json", "addToNav": true, "defaultNav": true}
   ],
 
   "dependencies": {

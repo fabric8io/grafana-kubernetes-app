@@ -5,10 +5,12 @@ This app provides a set of dashboards for Kubernetes cluster monitoring with Pro
 ### Dashboards
 
  * Cluster overview
+ * Prometheus
 
 ### Screenshots
 
-![img](https://raw.githubusercontent.com/percona/grafana-dashboards/master/assets/sample2.png)
+![img](src/img/screenshot_overview.png)
+![img](src/img/screenshot_prometheus.png)
 
 ### Setup instructions
 
